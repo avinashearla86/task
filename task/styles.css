@@ -1,0 +1,102 @@
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+}
+.modal-content terms{
+    color: #c9302c;
+
+}
+.custom-image {
+    height: auto; /* Ensures image height adjusts based on width */
+    max-height: 300px; /* Adjust height limit as needed */
+    width: 100%; /* Take full width of its container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.image-container {
+    height: 100%; /* Ensures the container takes the full height of the parent */
+    display: flex; /* Enable flexbox layout */
+    justify-content: flex-end; /* Align content to the right */
+    align-items: center; /* Center vertically */
+}
+.what {
+    text-align: left; /* Align text content to the left within the section */
+}
+
+.what h1, .what h2 {
+    margin-bottom: 20px; /* Add margin below headings for spacing */
+}
+
+.what p {
+    text-align: left; /* Align paragraph text to the left */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form input, #contact-form button {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#contact-form button {
+    background-color: #d9534f;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #c9302c;
+}
+
+
+/* styles.css */
+.what img {
+    max-width: 100%;
+    height: auto;
+    width: 80%; /* Adjust this percentage to reduce/increase the image size */
+    margin: 0 auto;
+    display: block;
+    
+}
+.dull-background {
+    background-color: #f0f0f0; /* Adjust the color as per your preference */
+}
+
+
